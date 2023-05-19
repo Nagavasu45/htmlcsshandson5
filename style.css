@@ -1,0 +1,348 @@
+.a{
+    background-image:url("./shara\ desert.jpg");
+}
+.b{
+    display: flex;
+    padding-left: 900px;
+   margin-top: 20px;
+}
+.c{
+    
+    margin-right: 50px;
+    margin-top: 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.d{
+    /* height: 500px;
+    width: 40px; */
+    margin-left: 40px;
+}
+.e{
+    height: 80px;
+    width: 60px;
+}
+.f{
+    display: flex;
+}
+.g{
+    height: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.h{
+    color: white;
+   font-size: 6vw;
+}
+.i{
+    /* margin-top: -100px; */
+    color: white;
+}
+button{
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    /* font-weight; */
+    text-align: center;
+    border-radius:20px;
+    border: 1px solid white;
+
+
+}
+.k{
+    display: flex;
+    height: 700px;
+    width: 700px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+    
+   
+    
+}
+.l{
+    height: 230px;
+    width: 230px;
+    border: 0px solid black;
+    padding-left: 20px;
+    background-image: url('./pic-1.png');
+    background-size: cover;     
+    border-radius: 10px;
+    
+}
+.l:hover{
+    transform:translateY(-10px);
+} 
+.q:hover{
+    transform:translateY(-10px);
+} 
+.p:hover{
+    transform:translateY(-10px);
+} 
+.o:hover{
+    transform:translateY(-10px);
+} 
+.m{
+    color: white;
+}
+.n{
+    color: white;
+    font-size: small;
+}
+.o{
+    height: 230px;
+    width: 230px;
+    border: 0px solid black;
+    padding-left: 20px;
+    background-image: url('./pic-2.png');
+    background-size: cover;    
+    border-radius: 10px;
+}
+.p{
+    height: 230px;
+    width: 230px;
+    border: 0px solid black;
+    padding-left: 20px;
+    background-image: url('./pic-3.png');
+    background-size: cover;    
+    border-radius: 10px;
+}
+.q{
+    height: 230px;
+    width: 230px;
+    border: 0px solid black;
+    padding-left: 20px;
+    background-image: url('./pic-4.png');
+    background-size: cover;    
+    border-radius: 10px;
+}
+@media only screen and (min-width:600px) and (max-width: 856px)  {
+    .b{
+        display: flex;
+        padding-left: 440px;
+       margin-top: 20px;
+    }
+    .c{
+        
+        margin-right: 50px;
+        margin-top: 12px;
+    }
+    .f{
+        display: block;
+    }
+    .g{
+        height: auto;
+        width: 80%;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    .h{
+        color: white;
+       font-size: 30px;
+       margin-top:-50px ;
+    }
+    .i{
+         margin-top:-15px;
+        color: white;
+    }
+    .k{
+        display: flex;
+        height: auto;
+        width: 600px;
+        row-gap: 20px;
+        flex-wrap: wrap;   
+        flex-direction: column;
+        margin-left: 150px;
+        margin-top: 30px;
+    
+        
+       
+        
+    }
+    .l:hover{
+        transform:translateY(-10px);
+    } 
+    .q:hover{
+        transform:translateY(-10px);
+    } 
+    .p:hover{
+        transform:translateY(-10px);
+    } 
+    .o:hover{
+        transform:translateY(-10px);
+    } 
+    .m{
+        color: white;
+    }
+    .n{
+        color: white;
+        font-size: small;
+    }
+    .o{
+        height: 230px;
+        width: 500px;
+        border: 0px solid black;
+        padding-left: 20px;
+        background-image: url('./pic-2.png');
+        background-size: 520px 230px;    
+        border-radius: 10px;
+    }
+    .p{
+        height: 230px;
+        width: 500px;
+        border: 0px solid black;
+        padding-left: 20px;
+        background-image: url('./pic-3.png');
+        background-size: 520px 230px;   
+        border-radius: 10px;
+    }
+    .q{
+        height: 230px; 
+        width: 500px;
+        border: 0px solid black;
+        padding-left: 20px;
+        background-image: url('./pic-4.png');
+        background-size: 520px 230px;   
+        border-radius: 10px;
+    }
+    .l{
+        height: 230px;
+        width: 500px;
+        border: 0px solid black;
+        padding-left: 20px;
+        background-image: url('./pic-1.png');
+        background-size: 520px 230px;   
+        border-radius: 10px;
+        
+    }
+}
+@media only screen and (max-width: 450px)  {
+    .b{
+        display: flex;
+        padding-left: 200px;
+       
+       margin-top: 20px;
+       flex-direction: column;
+       line-height:5px;
+       
+    }
+    .f1{
+        display: flex;
+        float: left;
+        margin-left: 90px;
+        margin-top: -35px;
+       
+    }
+    .c1{
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .c{ 
+        
+        margin-left: 20px;
+        margin-top: 12px;
+    }
+    .f{
+        display: block;
+    
+    }   
+    .g{
+        height: auto;
+        /* width: 20%; */
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .h{
+        color: white;
+       font-size: 30px;
+       margin-top:-50px ;
+    }
+    .i{
+         margin-top:-15px;
+        color: white;
+    }
+    .k{
+        display: flex;
+        height: auto;
+        width: auto;
+        row-gap: 20px;
+        flex-wrap: wrap;   
+        flex-direction: column;
+        /* margin-left: 250px; */
+        align-items: center;
+        margin-top: 30px;
+    
+        
+       
+        
+    }
+    .l:hover{
+        transform:translateY(-10px);
+    } 
+    .q:hover{
+        transform:translateY(-10px);
+    } 
+    .p:hover{
+        transform:translateY(-10px);
+    } 
+    .o:hover{
+        transform:translateY(-10px);
+    } 
+    .m{
+        color: white;
+    }
+    .n{
+        color: white;
+        font-size: small;
+    }
+    .o{
+        height: 230px;
+        width: 230px;
+        border: 0px solid black;
+        padding-left: 20px;
+        background-image: url('./pic-2.png');
+        background-size: cover;   
+        border-radius: 10px;
+    }
+    .p{
+        height: 230px;
+        width: 230px;
+        border: 0px solid black;
+        padding-left: 20px;
+        background-image: url('./pic-3.png');
+        background-size: cover;     
+        border-radius: 10px;
+    }
+    .q{
+        height: 230px;
+        width: 230px;
+        border: 0px solid black;
+        padding-left: 20px;
+        background-image: url('./pic-4.png');
+        background-size: cover;     
+        border-radius: 10px;
+    }
+    .l{
+        height: 230px;
+        width: 230px;
+        border: 0px solid black;
+        padding-left: 20px;
+        background-image: url('./pic-1.png');
+        background-size: cover;   
+        border-radius: 10px;
+        
+    }
+     
+    .e{
+        /* height: 80px; */
+        margin-top: -50px;
+        width: 15vw;
+    }
+}
